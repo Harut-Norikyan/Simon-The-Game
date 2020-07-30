@@ -1,0 +1,22 @@
+.circle{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #000;
+    overflow: hidden;
+    display: flex;
+    flex-flow: wrap;
+}
+.circle__item{
+    width: 196px;
+    height: 196px;
+    border: 2px solid #fff;
+    /*background: yellow;*/
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.active{
+    /*transition: 0.3s;*/
+    opacity: 1;
+}
